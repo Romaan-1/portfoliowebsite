@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">&lt;RG /&gt;</a>
+            <ul class="nav-links">
+                <li><a href="#home">Головна</a></li>
+                <li><a href="#about">Про мене</a></li>
+                <li><a href="#skills">Стек</a></li>
+                <li><a href="#projects">Проекти</a></li>
+                <li><a href="#contact">Контакти</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <p class="greeting">Привіт, я</p>
+            <h1>Роман Григоришин</h1>
+            <p class="role">Software Developer | C++ | C# | Python</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn">Дивитись роботи</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <section id="about" class="about-section">
+            <h2>Про мене</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Я захоплений розробник програмного забезпечення з фокусом на створенні ефективних та чистих
+                        рішень. Моя пристрасть — це системне програмування (C++), десктопна розробка (C#/.NET) та
+                        малі програми (Python).</p>
+                    <p>Люблю складні алгоритмічні задачі, роботу з базами даних (SQL) та постійно вивчаю нові
+                        технології. Маю досвід командної роботи та прагну розвиватися в сфері Backend або Fullstack
+                        розробки.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item"><span>1+</span> рік досвіду</div>
+                    <div class="stat-item"><span>5+</span> завершених проектів</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <h2>Мій Стек Технологій</h2>
+            <div class="skills-container">
+                <div class="skill-tag"><i class="fab fa-cuttlefish"></i> C++</div>
+                <div class="skill-tag"><i class="fab fa-windows"></i> C# (Avalonia MVVM)</div>
+                <div class="skill-tag"><i class="fab fa-python"></i> Python(50/50)</div>
+                <div class="skill-tag"><i class="fas fa-database"></i> SQL (MySQL)</div>
+                <div class="skill-tag"><i class="fab fa-html5"></i> HTML5</div>
+                <div class="skill-tag"><i class="fab fa-css3-alt"></i> CSS3</div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <h2>Мої Проекти</h2>
+            <div class="projects-grid">
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-car project-icon"></i>
+                        <h3 class="project-title">АРМ Автосалону</h3>
+                    </div>
+                    <p class="project-desc">Десктопний додаток для управління базою даних автосалону (MVVM, CRUD).</p>
+                    <p class="project-tech">C# | Avalonia UI | MySQL</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Romaan-1/CarDealerApp" target="_blank" class="project-link"><i
+                                class="fab fa-github"></i> Code</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-shopping-cart project-icon"></i>
+                        <h3 class="project-title">АРМ Продажу ПЗ</h3>
+                    </div>
+                    <p class="project-desc">Система обліку та продажу ліцензійного програмного забезпечення.</p>
+                    <p class="project-tech">C++ | STL</p>
+                    <div class="project-links">
+                        <!-- <a href="https://github.com/yourusername/project2" target="_blank" class="project-link"><i
+                                class="fab fa-github"></i></a> -->
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-matrix-org project-icon"></i>
+                        <h3 class="project-title">Алгоритми Матриць</h3>
+                    </div>
+                    <p class="project-desc">Реалізація складних алгоритмів обходу та маніпуляції двовимірними масивами.
+                    </p>
+                    <p class="project-tech">C++ (Low-level)</p>
+                    <div class="project-links">
+                        <!-- <a href="https://github.com/yourusername/project3" target="_blank" class="project-link"><i
+                                class="fab fa-github"></i></a> -->
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Зв'яжіться зі мною</h2>
+            <p>Відкритий до пропозицій про роботу та цікавих коллаборацій.</p>
+            <div class="social-links">
+                <a href="https://github.com/Romaan-1" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                <a href="mailto:roman@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2026 Всі права захищені.</p>
+    </footer>
+    <script src="./js/modal.js"></script>
+</body>
+
+</html>
